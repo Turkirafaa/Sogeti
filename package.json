@@ -1,0 +1,18 @@
+{
+
+  "scripts": {
+
+    "cypress:open": "./node_modules/.bin/cypress open"
+
+  },
+
+  "devDependencies": {
+
+    "cypress": "^12.10.0",
+
+    "cypress-mochawesome-reporter": "^3.3.0"
+
+  }
+
+}
+
