@@ -54,7 +54,7 @@ describe('Sogetis homepage', () => {
 
     it('navigates to different pages', () => {
         cy.visit('https://www.sogeti.se/')
-        cy.get('#main-nav > ul > li > a').each((link) => {
+        cy.get('#nav-bar > ul > li > a').each((link) => {
             cy.wrap(link).click()
             cy.url().should('contain', link.attr('href'))
             cy.go('back')
